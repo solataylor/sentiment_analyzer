@@ -2,7 +2,7 @@ Solar Energy Sentiment Analyzer
 
 Installation
 
-1.  Clone this repo ( git clone ... )
+1.  Clone this repo ( git clone https://github.com/solataylor/sentiment_analyzer.git )
 2.  cd sentiment_analyzer
 3.  edit docker-compose.yml and add the OPEN_AI_KEY
 4.  enter "docker-compose pull"
