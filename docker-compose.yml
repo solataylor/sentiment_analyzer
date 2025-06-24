@@ -10,3 +10,12 @@ services:
       - DATABASE_URL=sqlite3:/app/db/production.sqlite3
       - SECRET_KEY_BASE=development_secret_key_base_for_docker_only_change_in_production
       - OPENAI_API_KEY=XXXXXX
+      - SELENIUM_REMOTE_URL=http://selenium:4444/wd/hub
+   depends_on:
+     - selenium
+
+selenium:
+  image: seleniarm/standalone-chromium:latest
+  ports:
+    - "4444:4444"
+
