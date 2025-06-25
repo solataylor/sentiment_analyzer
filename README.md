@@ -2,12 +2,13 @@ Solar Energy Sentiment Analyzer
 
 Installation
 
-1.  Clone this repo ( git clone https://github.com/solataylor/sentiment_analyzer.git )
-2.  cd sentiment_analyzer
-3.  edit docker-compose.yml and add the OPENAI_API_KEY
-4.  enter "docker-compose pull"
-5.  create db folder if doesn't exist ( mkdir db )
-6.  copy data file to db folder ( cp production.sqlite3 db/. )
+1.  Install docker desktop
+2.  Clone this repo ( git clone https://github.com/solataylor/sentiment_analyzer.git )
+3.  cd sentiment_analyzer
+4.  edit docker-compose.yml and add the OPENAI_API_KEY
+5.  enter "docker-compose pull"
+6.  create db folder if doesn't exist ( mkdir db )
+7.  copy data file to db folder ( cp production.sqlite3 db/. )
 
 Starting the app
 1.  enter "docker-compose up"
