@@ -11,8 +11,9 @@ Installation
 7.  copy data file to db folder ( cp production.sqlite3 db/. )
 
 Starting the app
-1.  enter "docker-compose up"
-2.  navigate to "http://localhost:3000" in your browser
+1.  get the latest app -- enter "docker-compose pull"
+2.  start the app -- enter "docker-compose up"
+3.  navigate to "http://localhost:3000" in your browser
 
 To add urls from project
 1.  Click on "Bulk Upload" and choose "test-urls.xlsx" from this repo
