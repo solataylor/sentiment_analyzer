@@ -6,8 +6,12 @@ Installation
 2.  cd sentiment_analyzer
 3.  edit docker-compose.yml and add the OPENAI_API_KEY
 4.  enter "docker-compose pull"
-5.  enter "docker-compose up"
-6.  navigate to "http://localhost:3000" in your browser
+5.  create db folder if doesn't exist ( mkdir db )
+6.  copy data file to db folder ( cp production.sqlite3 db/. )
+
+Starting the app
+1.  enter "docker-compose up"
+2.  navigate to "http://localhost:3000" in your browser
 
 To add urls from project
 1.  Click on "Bulk Upload" and choose "test-urls.xlsx" from this repo
